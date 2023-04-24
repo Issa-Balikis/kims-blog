@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+        "title": "My First Blog",
+        "body": "why do we use it?\nIt isa long established fact that a reader will be distracted by a readable content of a page when looking at it layout.",
+        "author": "Issa",
+        "id": 1
+        },
+        {
+        "title": "Opening Party",
+        "body": "why do we use it?\nIt isa long established fact that a reader will be distracted by a readable content of a page when looking at it layout.",
+        "author": "Kimmie",
+        "id": 2
+        }
+    ]
+}

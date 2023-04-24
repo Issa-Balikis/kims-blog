@@ -1,0 +1,24 @@
+//JSX
+//we can output dynamic templates values in react.
+//using curly braces and te varibale name.
+//only strings, numbers and arrays can be output, boolean and objects can't.
+// as well as outputting values, we can also write the values directly in  a curly braces.
+// another thing we do in jsx, is use this dynamic values as attribute values in element type.
+
+
+// multiple component
+// a component is a function which returns A JS template and then that function is exported at the end of the file.
+// our components are structured ina way that makes the component tree.
+// the root component is one that is initially rendered in our html file and sits at the very top of our application.
+// when making more components, we next them inside of the root component.
+// sfc- stateless functional component.
+// Using states; it talks about the data being used in that component at that point in time.it can be an array iof values, booleans, strings, objects, etc.
+// useState hook- it gives us a way to make a reactive value and also provides us a way to change thatvalue whenever we want.
+//useEffect hook- it runs a function on every render of a component. it can used for thingsmlife fetching of data, directly updating the DOM and timers.
+// dependency array- it is an array that we can pass into a useEffect hook as a second argument. it makes sure thr hook only runs the function after the first initial render, thereafter, if the state changes, it won't run the function again.
+
+END POINTS
+/blogs          GET        fetch all blogs
+/blogs/{id}     GET        fetch a single blog
+/blogs          POST       Add a new blog
+/blogs/{id}     DELETE     Delete a blog
